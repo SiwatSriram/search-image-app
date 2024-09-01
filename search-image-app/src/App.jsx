@@ -41,6 +41,7 @@ function App() {
           value={word}
           onChange={(e) => setWord(e.target.value)}
         />
+        test
         <button type="submit">ค้นหา</button>
       </form>
     <div className="search-result">
